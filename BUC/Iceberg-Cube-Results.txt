@@ -1,0 +1,31 @@
+Test Case: min_sup = 11
+
+(Item):
+              Sales_Units
+Computer      97
+Camera        93
+Phone         96
+Printer       92
+
+(Item, Location):
+              Toronto       Vancouver     New York      Chicago
+Computer      21            20            29            27            
+Camera        25            22            21            25            
+Phone         25            22            22            27            
+Printer       23            23            24            22            
+
+(Item, Location, Year):
+2017:
+              Toronto       Vancouver     New York      Chicago
+Computer      12            /             14            13            
+Camera        13            11            12            14            
+Phone         13            12            /             12            
+Printer       13            12            11            11            
+
+(Item, Location, Year):
+2018:
+              Toronto       Vancouver     New York      Chicago
+Computer      /             /             15            14            
+Camera        12            11            /             11            
+Phone         12            /             13            15            
+Printer       /             11            13            11            
